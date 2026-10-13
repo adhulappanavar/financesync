@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FinanceSync</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>FinanceSync</h1>
+    <p class="lede">
+      FinanceSync is a private, self-hosted personal finance tool. It gathers the financial
+      statements that a household receives by email &mdash; bank and credit-card statements,
+      broker contract notes, mutual-fund and depository statements, and bond interest credit
+      notices &mdash; into a Google Drive folder the owner controls, turns them into structured
+      data, and produces monthly income, expense and net-worth reports as a spreadsheet.
+    </p>
+
+    <h2>Who it is for</h2>
+    <p>
+      FinanceSync is not a public service. There is no sign-up, no user accounts and no third-party
+      users. It runs on the owner's own computer, for a single household of two people, and it only
+      ever reaches financial data belonging to those two people.
+    </p>
+
+    <h2>How it uses Google</h2>
+    <p>
+      FinanceSync connects to Google Drive through OAuth, using a client registered by the owner of
+      the application. Access is granted only to the folder that holds the household's own financial
+      statements. That access is used to read statement files out of the folder for processing on the
+      owner's computer, and to upload statement attachments that arrive in the household's own email.
+      Nothing outside those folders is read, and no Google user data is sold, published or shared with
+      anyone.
+    </p>
+    <p>
+      Where the household has separately authorised it, FinanceSync also reads statement emails from
+      the household's own mailboxes, using an Apps Script on the owner's own Google account. Those
+      emails belong to the same two people and are handled in exactly the same way as the Drive
+      folder above.
+    </p>
+
+    <h2>Reports</h2>
+    <p>
+      Each week FinanceSync produces a spreadsheet with the month-by-month income position for the
+      household, charts, and a short written commentary. The report is emailed to the owners, archived
+      to their own Google Drive folder, and kept on the owner's computer.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      Questions about the application, its use of Google data, or these pages can be sent to
+      <a href="mailto:anil.dhulappanavar@gmail.com">anil.dhulappanavar@gmail.com</a>.
+    </p>
+
+    <footer>
+      <p>
+        <a href="privacy.html">Privacy Policy</a> &middot;
+        <a href="terms.html">Terms of Service</a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
